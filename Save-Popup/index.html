@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Popup</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="savePopup()" class="btn">Save</button>
+        <div class="popup">
+            <div class="heart"></div>
+            <i id="heart" class="ri-heart-2-fill"></i>
+            <div class="icon">
+                <i id="checkbox" class="ri-checkbox-circle-line"></i>
+            </div>
+            <p id="paragraph">Are you sure you want to save these changes?</p>
+            <div class="bottom">
+                <button onclick="confirmDelete()" class="right-button">Confirm</button>
+                <button onclick="closePopup()" class="left-button">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

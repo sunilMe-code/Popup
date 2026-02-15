@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Popup</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="deletePopup()" class="btn">Delete</button>
+        <div class="popup">
+            <div class="firework"></div>
+            <i id="delete" class="ri-delete-bin-6-line"></i>
+            <div class="icon">
+                <i id="checkbox" class="ri-checkbox-circle-line"></i>
+            </div>
+            <p id="paragraph">Are you sure you want to delete this item?</p>
+            <div class="bottom">
+                <button onclick="confirmDelete()" class="right-button">Confirm</button>
+                <button onclick="closeDeletePopup()" class="left-button">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
