@@ -22,7 +22,7 @@ This project is perfect for beginners who want to understand how modals work in 
 
 📂 Source Code
 
-🔗 https://github.com/sunilMe-code/popup-project
+🔗 https://github.com/sunilMe-code/Popup
 
 🧠 What You’ll Learn
 * JavaScript DOM manipulation
