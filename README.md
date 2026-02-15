@@ -19,13 +19,10 @@ This project is perfect for beginners who want to understand how modals work in 
 * CSS3 – Styling & animation
 * JavaScript (ES6) – Popup logic
 
-🚀 Live Demo
-
-🔗 https://yourwebsite.com/popup-project
 
 📂 Source Code
 
-🔗 https://github.com/yourusername/popup-project
+🔗 https://github.com/sunilMe-code/popup-project
 
 🧠 What You’ll Learn
 * JavaScript DOM manipulation
